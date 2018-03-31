@@ -24,6 +24,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: fasminelee
 github_username:  fasminelee
 
+# paginate: 5 #启用分页永久链接
 # Build settings
 markdown: kramdown
 theme: minima
