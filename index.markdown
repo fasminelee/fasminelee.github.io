@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Peter's Corner
+title: fasminelee's Corner
 ---
 
-Hi there, I am Peter Wang, an [Open Source][oss] enthusiast. This site is
+Hi there, I am Fasmine Lee, an [Open Source][oss] enthusiast. This site is
 dedicated to providing information about [me](resume.html) and [what I do](/work).
 
 I am a screencastr at <http://haoduoshipin.com>.
@@ -20,15 +20,13 @@ I am a screencastr at <http://haoduoshipin.com>.
 
 <ul>
 
-<li><a href="http://c2.com/cgi/wiki?PeterWang">Wikiwikiweb</a></li>
-
-<li><a href="http://github.com/happypeter/">Github</a></li>
+<li><a href="http://github.com/fasminelee/">Github</a></li>
 
 </ul>
 <p><br /><b>Contact Information:</b></p>
 
 <blockquote>
-欢迎所有朋友加我微信：happypeter1983
+联系 fasminelee@gmail.com
 </blockquote>
 
 [oss]:http://en.wikipedia.org/wiki/Open_source
