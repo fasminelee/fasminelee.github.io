@@ -2,8 +2,10 @@
 layout: default
 title: fasminelee's Corner
 ---
-Hi there, I am Fasmine Lee, an [Open Source][oss] enthusiast.
+
 <h2>{{ page.title }}</h2>
+
+Hi there, I am Fasmine Lee, an [Open Source][oss] enthusiast.
 <p><br/><b>My Blog:</b></p>
 <ul class="posts">
   {% for post in site.posts %}
