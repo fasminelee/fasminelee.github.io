@@ -1,6 +1,6 @@
 ---
 layout: default
-title: fasminelee's Corner
+title: Fasmine Lee's Corner
 ---
 
 <h2>{{ page.title }}</h2>
