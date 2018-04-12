@@ -22,5 +22,6 @@ Hi there, I am Fasmine Lee, an [Open Source][oss] enthusiast.
 <p><br /><b>Contact Information:</b></p>
 
 <blockquote>联系 fasminelee@gmail.com</blockquote>
+{% include footer.html %}
 
 [oss]:http://en.wikipedia.org/wiki/Open_source
