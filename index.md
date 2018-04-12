@@ -5,7 +5,7 @@
 layout: home
 
 # layout: default
-title: 我的Blog
+title: 我的主页
 ---
 
 <h2>{{ page.title }}</h2>
@@ -16,7 +16,10 @@ title: 我的Blog
 
 	{% for post in site.posts %}
 
-	<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+	<li>
+    {{ post.date | date_to_string }} 
+    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
 
 	{% endfor %}
 
