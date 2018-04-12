@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Fasmine Lee's Corner
 ---
 
