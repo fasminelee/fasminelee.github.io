@@ -11,7 +11,7 @@ twitter_username: @fasminelee
 github_username: fasminelee
 
 # Build settings
-markdown: kramdown # 1
+markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
