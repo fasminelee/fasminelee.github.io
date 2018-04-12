@@ -2,7 +2,7 @@
 layout: default
 title: fasminelee's Corner
 ---
-
+Hi there, I am Fasmine Lee, an [Open Source][oss] enthusiast.
 <h2>{{ page.title }}</h2>
 <p><br/><b>My Blog:</b></p>
 <ul class="posts">
@@ -20,3 +20,5 @@ title: fasminelee's Corner
 <p><br /><b>Contact Information:</b></p>
 
 <blockquote>联系 fasminelee@gmail.com</blockquote>
+
+[oss]:http://en.wikipedia.org/wiki/Open_source

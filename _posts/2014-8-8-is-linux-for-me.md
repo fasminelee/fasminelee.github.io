@@ -3,10 +3,7 @@ layout: post
 title: Linux 适合我吗?
 ---
 
-Peter: 本文本来发表在我的开源书籍 [Linux Guide for Complete Beginners](https://github.com/happypeter/LGCB)
-的前言部分，那是 2010 年的事了，我在一家培训机构教 Linux 。
-这篇文章是我当时用来忽悠大家都来学 Linux
-的，随着本书改版，这些内容不太适合放在书里面了，不过现在看来依然被自己的偏执和真诚感动，所以转载在这里。
+Peter: 本文本来发表在我的开源书籍 [Linux Guide for Complete Beginners](https://github.com/happypeter/LGCB)的前言部分，那是 2010 年的事了，我在一家培训机构教 Linux 。这篇文章是我当时用来忽悠大家都来学 Linux 的，随着本书改版，这些内容不太适合放在书里面了，不过现在看来依然被自己的偏执和真诚感动，所以转载在这里。
 
 本文针对的问题是：现在的中国，很多年轻人不知道以什么谋生，另外一些人能赚到足够的钱却不喜欢他们的工作，想要换一个，从而不浪费自己的才华。所以这些人要问自己：Linux 适合我吗？
 
