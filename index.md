@@ -7,14 +7,41 @@ title: Fasmine Lee's Corner
 Hi there, I am Fasmine Lee, an [Open Source Software][oss] enthusiast.
 
 <p><br/><b>My Blog:</b></p>
-<ul class="posts">
+<!-- <ul class="posts">
   {% for post in site.posts %}
-  <li>
-    <span>{{ post.date | date_to_string }}</span> &raquo; 
-    <a href="{{ post.url }}">{{ post.title }}</a>
-  </li>{% endfor %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo;<a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul> -->
+<ul class="posts">
+  {% for post in paginator.posts %}
+    <article>
+      <header>
+        <a href="{{ site.baseurl | prepend: site.url  }}/archive/#{{ post.date | date: '%Y-%m-%d' }}"><span class="octicon octicon-calendar"></span>&nbsp;<span>{{ post.date | date: "%Y-%m-%d" }}</span></a>
+      </header>
+    <div class="module">
+      <a class="title" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
+      <p>{% if post.excerpt.size > 32 %}{{ post.excerpt }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 160 }}{% endif %}</p>
+      <a class="readmore" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">Read More</a>
+      <footer>
+        {% for tag in post.tags %}
+          <a class="word-keep" href="{{ site.baseurl | prepend: site.url }}/tags/#{{ tag }}">
+            <span class="octicon octicon-tag"></span>&nbsp;{{ tag }}</a>
+        {% endfor %}
+        <span class="word-keep pull-right">
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-comment">
+            <span class="octicon octicon-comment"></span>&nbsp;Comment
+          </a>
+          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}#post-share">
+            <span class="octicon octicon-file-symlink-file"></span>&nbsp;Share
+          </a>
+        </span>
+      </footer>
+    </div>
+    </article>
+  {% endfor %}
 </ul>
 
+<!-- pagination -->
 <nav class="text-center">
   <ul class="pagination">
     {% if paginator.total_pages > 1 %}
