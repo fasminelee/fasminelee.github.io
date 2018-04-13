@@ -7,7 +7,8 @@ url: "http:fasminelee.com" # the base hostname & protocol for your site, e.g. ht
 twitter_username: fasminelee
 github_username:  fasminelee
 
-paginate: 5
+paginate: 10
+paginate_path: ":num"
 
 # Build settings
 markdown: kramdown
