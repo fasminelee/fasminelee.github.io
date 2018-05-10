@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 代码高亮
+comments: true
 ---
 
 {% highlight ruby %}
